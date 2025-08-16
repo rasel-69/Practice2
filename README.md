@@ -14,7 +14,7 @@
 
 
 ## Utilized tools in task_ml.py 
-#### we use Scikit learn   ; WE used keras tunar ; Hyper parameter tunining using GreadSearch CV and RandomSearch CV ; We used Matplotlib 
+#### colab Nvidia T4;  we use Scikit learn   ; WE used keras tunar ; Hyper parameter tunining using GreadSearch CV and RandomSearch CV ; We used Matplotlib 
 
 
 
