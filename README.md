@@ -19,10 +19,17 @@
 
 
 ## Here in task_DL.py file contains 3 DL models codes 
-#### (1) We used customized BERT model in this files 
-#### (2) We used modified RoBERT model with 200 iteration  in this file
-#### (3) We used modified RoBERT model with 500 iteration in this file 
-#### (4) Finally we used Ensemble model integrating BERT and RoBERT model with CatBoost Meta learner
+#### (1) We used customized BERT model for 3 Epochs  in this files 
+#### (2) We used customized BERT model for 6 Epochs  in this files 
+#### (3) We used modified RoBERT model in this file
+#### (4) Finally we used Ensemble model integrating BERT and RoBERT model with CatBoost Meta learner (200 iteration )
+#### (5) Finally we used Ensemble model integrating BERT and RoBERT model with CatBoost Meta learner (500 iteration )
+
+#### All the DL models results with Saved trained Model link is : https://drive.google.com/drive/folders/1onAeg4ygL8ShS8IzaDAz3SYOLO-jS5Eg?usp=drive_link
+
+
+
+
 
 
 ## Here in task_dl_2.py file contains 3 more DL models codes 
@@ -39,6 +46,9 @@
 
 #### (4) We try to used Custom GTP2-small model here But can't do it for CUDA cores. So if i can get higher GPU suppor i can also modify the defult GPT2-small model. 
 
+#### All the DL models results with Saved trained Model link is: https://drive.google.com/drive/folders/1j7u1cpg1lw5MvOQiPl3ESuOZu4Kz_vHy?usp=sharing
+
+
 
 ## Utilized tools in task_DL.py and task_dl_2.py Files
 ##### (1) Tensorflow 
@@ -51,7 +61,15 @@
 
 
 ## We also Developed a Web Based Real Time system to check the user interaction and prediction 
+#### OUTPUT Of our Real time system Using Catboost Ensemble Model (logistic Regresssion + naive bayes + KNN) 
+![Alt text](Reltime_Prediction/ss1.png)
+![Alt text](Reltime_Prediction/ss2.png)
+![Alt text](Reltime_Prediction/ss4.png)
 
+## Used Tools for Real time system 
+### Backend 
+#### (*) Flask
+### Frontend 
+#### (*) HTML + TailwindCSS 
 
-
-
+#### Git Repository of our Realtime system CODE: https://github.com/rasel-69/sentiment_app
