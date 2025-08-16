@@ -18,14 +18,14 @@
 
 
 
-## Here ini task_DL.py file contains 3 DL models codes 
+## Here in task_DL.py file contains 3 DL models codes 
 #### (1) We used customized BERT model in this files 
 #### (2) We used modified RoBERT model with 200 iteration  in this file
 #### (3) We used modified RoBERT model with 500 iteration in this file 
 #### (4) Finally we used Ensemble model integrating BERT and RoBERT model with CatBoost Meta learner
 
 
-## Here ini task_dl_2.py file contains 3 more DL models codes 
+## Here in task_dl_2.py file contains 3 more DL models codes 
 #### (1) We employed Customized Hierarchical Attention Network (HAN) model 
 ###### (*) We customized HAN model using some extra layers
 ###### (*) Chaning the optimizer with AdamW and learning rate
